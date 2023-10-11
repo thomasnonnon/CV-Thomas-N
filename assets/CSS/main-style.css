@@ -6,6 +6,7 @@ main{
 h2{
     background-color: #dbc2a4;
     padding-left: 1em ;
+    margin-right: 20px;
 }
 #A-propos{
     width: 25%;
@@ -15,6 +16,7 @@ h2{
 #A-propos__propos{
     color: white;
     margin-left: 20px;
+    margin-right: 20px;
     text-indent: 22px;
     text-align: justify;
 }
