@@ -1,0 +1,59 @@
+main{
+    display: flex;
+    flex-direction: column;
+    position: relative;    
+}
+h2{
+    background-color: #dbc2a4;
+    padding-left: 1em ;
+}
+#A-propos{
+    width: 25%;
+    height: 1250px;
+    background-color: #782221;
+}
+#A-propos__propos{
+    color: white;
+    margin-left: 20px;
+    text-indent: 22px;
+    text-align: justify;
+}
+#A-propos__interêt{
+    color: white;
+}
+#A-propos__Langue{
+    color: white;
+}
+#experiences{
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 810px;
+    height: 1250px;
+    border-right: 3px solid black;
+    border-left-color: #782221;
+}  
+#experiences__pro{
+    border-left: solid 0.5em;
+    border-left-color: #782221;
+}
+#experiences__pro:hover{
+    border-right: solid 0.5em;
+    border-right-color: #782221;
+}   
+#experiences__Diplo{
+    border-left: solid 0.5em;
+    border-left-color: #782221;
+}
+#experiences__Diplo:hover{
+    border-right: solid 0.5em;
+    border-right-color: #782221;
+} 
+#experiences__Comp{
+    border-left: solid 0.5em;
+    border-left-color: #782221;
+}
+#experiences__Comp:hover{
+    border-right: solid 0.5em;
+    border-right-color: #782221;
+}
