@@ -1,12 +1,15 @@
+    /*mise en place des blocs dans l'en tete*/
 header{
     display: flex;
     flex-direction: column;
 }
+    /*mise en place du premier bloc*/
 #en-tete{
     background-color: #782221;
     color: white;
     text-align: center;
 }
+    /*mise en forme du 2eme bloc*/
 #adresse{
     background-color: #2c1d27;
     color: white;
@@ -28,6 +31,7 @@ a{
     color: white;
     text-decoration: none;
 }
+    /*mise en forme de la photo*/
 #photo{
     width: 200px;
     height: 200px;
@@ -36,5 +40,4 @@ a{
     box-shadow: 5px 5px 15px 10px black;
     cursor: zoom-in;
     object-fit: cover;
-
 }

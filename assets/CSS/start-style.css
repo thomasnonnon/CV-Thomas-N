@@ -4,8 +4,9 @@ body{
     width: 1160px;
     position: relative;
 }
+    /*pour lier l'adresse a la carte google map*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,400;1,700&family=Raleway&display=swap');
-
+    /*pour mettre la police en place sur les titres*/
 h1{
     font-family: "Lato" , sans-serif;
 }
@@ -31,6 +32,7 @@ h4{
     src: url('../fonts/Raleway-SemiBold.woff');
     src: url('../fonts/Raleway-SemiBold.ttf') format('truetype');
 }
+    /*pour mettre la police sur le reste du texte*/
 p{
     font-family: "Raleway Variable";
 }

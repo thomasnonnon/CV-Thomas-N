@@ -1,3 +1,4 @@
+    /*mise en forme du pied de page*/
 footer{
     background-color: #782221;
     color: white;
@@ -5,6 +6,7 @@ footer{
     flex-direction: column;
     align-items: center;
 }
+    /*redimmensonnement des icones*/
 #linkedin{
     width: 2em;
     height: 2em;
@@ -13,6 +15,7 @@ footer{
     width: 2em;
     height: 2em;
 }
+    /*effet sur les icones*/
 #linkedin:hover{
     opacity: 0.6;
 }

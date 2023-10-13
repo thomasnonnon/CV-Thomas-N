@@ -1,18 +1,22 @@
+    /*structuré la page*/
 main{
     display: flex;
     flex-direction: column;
     position: relative;    
 }
+    /*faire le fond des titres*/
 h2{
     background-color: #dbc2a4;
     padding-left: 1em ;
     margin-right: 20px;
 }
+    /*faire le fond de la section de gauche du corp*/
 #A-propos{
     width: 25%;
     height: 1250px;
     background-color: #782221;
 }
+    /*faire le mise en forme du texte de la section A propos*/
 #A-propos__propos{
     color: white;
     margin-left: 20px;
@@ -20,12 +24,14 @@ h2{
     text-indent: 22px;
     text-align: justify;
 }
+    /*mettre le texte en blanc*/
 #A-propos__interêt{
     color: white;
 }
 #A-propos__Langue{
     color: white;
 }
+    /*mise en forme de la section droite du corp*/
 #experiences{
     position: absolute;
     top: 0;
@@ -35,10 +41,12 @@ h2{
     border-right: 3px solid black;
     border-left-color: #782221;
 }  
+    /*créer les bordure sur les titre de la section droite*/
 #experiences__pro{
     border-left: solid 0.5em;
     border-left-color: #782221;
 }
+    /*créer la bordure dinamique a droite des titres*/
 #experiences__pro:hover{
     border-right: solid 0.5em;
     border-right-color: #782221;
